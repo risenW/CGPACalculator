@@ -4,26 +4,35 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/GpaListViewWidth"
+        android:layout_height="@dimen/GpaListViewHeight"
         android:id="@+id/nameHeader"
-        android:padding="10dp"
-        android:text="Test"/>
+        style="@style/GpaListView"
+        android:text="Odegua Rising"
+        android:background="@android:color/holo_red_dark" />
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/GpaListViewWidth"
+        android:layout_height="@dimen/GpaListViewHeight"
         android:id="@+id/sessionHeader"
-        android:padding="10dp"
-        android:text="2016"/>
+        style="@style/GpaListView"
+        android:text="2016/2017"
+        android:background="@color/colorPrimary" />
+    <TextView
+        android:layout_width="@dimen/GpaListViewWidth"
+        android:layout_height="@dimen/GpaListViewHeight"
+        android:id="@+id/gpaScore"
+        style="@style/GpaListView"
+        android:layout_weight="1"
+        android:text="4.5"
+        android:background="@android:color/holo_blue_dark" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/contentText"
-        android:padding="10dp"
-        android:layout_weight="1"
-        android:ellipsize="end"
+        style="@style/GpaListView"
         android:maxLines="1"
-        android:text="hgjhjhjkjkgkjhgkjkkjlhkjhkjhkjgkjhgjhghghghgh"/>
+        android:visibility="gone"
+        />
 
 
 </LinearLayout>

@@ -16,14 +16,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".DisplaySavedCGPA"
-            android:label="Saved GPA file"/>
-        <activity android:name=".Login"
-            android:label="Login"/>
-        <activity android:name=".PasswordSetUp"
-            android:label="Password Set-up"/>
-        <activity android:name=".GpaList"
-            android:label="Saved Files"/>
+        <activity
+            android:name=".DisplaySavedCGPA"
+            android:label="Saved GPA file" />
+        <activity
+            android:name=".Login"
+            android:label="Login" />
+        <activity
+            android:name=".PasswordSetUp"
+            android:label="Password Set-up" />
+        <activity
+            android:name=".GpaList"
+            android:label="Saved Files" />
+        <activity android:name=".About"></activity>
     </application>
 
 </manifest>

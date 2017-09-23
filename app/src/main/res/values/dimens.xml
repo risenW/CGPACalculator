@@ -9,4 +9,8 @@
 
     <dimen name="socialIconLogoHeight">100dp</dimen>
     <dimen name="socialIconLogoWidth">100dp</dimen>
+
+    <dimen name="displayViewHeight">50dp</dimen>
+    <dimen name="displayViewWidth">150dp</dimen>
+
 </resources>

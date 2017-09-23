@@ -15,21 +15,18 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_height="wrap_content"
-            android:textColor="@android:color/background_light"
+            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="@dimen/displayViewWidth"
             android:text="JOHN SMITH"
-            android:textStyle="bold"
-            android:padding="10dp"
             android:id="@+id/displayName"
+            style="@style/DisplayViews"
             android:layout_gravity="center"
             android:transitionName="nameTrans"
-            android:layout_width="wrap_content" />
+             />
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:textStyle="bold"
-            android:textColor="@android:color/background_light"
+            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="@dimen/displayViewWidth"
+            style="@style/DisplayViews"
             android:text="2015/2016"
             android:id="@+id/displaySession"
             android:layout_marginLeft="20dp"
@@ -38,21 +35,19 @@
 
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="@dimen/displayViewWidth"
             android:id="@+id/lockFile"
-            android:padding="5dp"
-            android:layout_marginLeft="10dp"
+            style="@style/DisplayViews"
             android:background="@color/colorPrimary"
             android:src="@android:drawable/ic_lock_idle_lock"
-            android:layout_gravity="center"
+            android:layout_gravity="end"
             android:layout_weight="1" />
 
 
 
 
     </LinearLayout>
-
 
 
     <TextView
@@ -77,25 +72,21 @@
         android:background="?attr/colorPrimary">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Current GPA is"
-            android:textStyle="normal|bold"
-            android:layout_marginRight="20dp"
-            android:textSize="20sp"
+            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="@dimen/displayViewWidth"
+            android:text="Current GPA:"
+            style="@style/DisplayViews"
             android:textColor="@android:color/background_light" />
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="@dimen/displayViewWidth"
             android:id="@+id/Gpa"
             android:background="@android:color/holo_red_dark"
-            android:padding="20dp"
-            android:textColor="@color/white"
+            style="@style/DisplayViews"
+            android:textAlignment="center"
             android:transitionName="scoreTrans"
             android:text="4.2"
-            android:textSize="20sp"
-            android:textStyle="normal|bold"
-            android:gravity="right|end" />
+            />
 
     </android.support.v7.widget.Toolbar>
 

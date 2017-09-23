@@ -28,13 +28,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/aboutTextStyle"
+                android:layout_marginBottom="0dp"
                 android:text="CGPA Calculator"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/aboutTextStyle"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
                 android:layout_marginLeft="40dp"
                 android:text="Version 1.0"/>
 
@@ -61,6 +63,7 @@
             android:layout_height="wrap_content"
             style="@style/aboutTextStyle"
             android:layout_marginTop="4dp"
+            android:id="@+id/rateApp"
             android:background="@color/colorPrimary"
             android:textAlignment="center"
             android:text="Rate this App"/>
@@ -80,23 +83,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <ImageButton
             android:layout_width="@dimen/socialIconLogoWidth"
             android:layout_height="@dimen/socialIconLogoHeight"
+            android:id="@+id/facebook"
             android:background="@drawable/facebook"/>
         <ImageButton
             android:layout_width="@dimen/socialIconLogoWidth"
             android:layout_height="@dimen/socialIconLogoHeight"
+            android:id="@+id/instagram"
             android:background="@drawable/instagram"/>
         <ImageButton
             android:layout_width="@dimen/socialIconLogoWidth"
             android:layout_height="@dimen/socialIconLogoHeight"
+            android:id="@+id/whatsapp"
             android:background="@drawable/whatsapp"/>
         <ImageButton
             android:layout_width="@dimen/socialIconLogoWidth"
             android:layout_height="@dimen/socialIconLogoHeight"
+            android:id="@+id/youtube"
             android:background="@drawable/youtube"/>
 
 

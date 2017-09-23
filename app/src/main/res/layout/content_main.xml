@@ -375,14 +375,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/displayViewHeight"
-            android:background="@android:color/holo_red_dark"
-            style="@style/mainMenuView"
-            android:text=" SECOND SEMESTER"
-            android:padding="10dp" />
-
 
     </LinearLayout>
 

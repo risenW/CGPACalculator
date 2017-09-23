@@ -21,7 +21,7 @@
         android:layout_width="@dimen/GpaListViewWidth"
         android:layout_height="@dimen/GpaListViewHeight"
         android:id="@+id/nameHeader"
-        style="@style/GpaListView"
+        style="@style/mainMenuView"
         android:text="Odegua Rising"
         android:transitionName="nameTrans"
         android:background="@android:color/transparent"
@@ -37,7 +37,7 @@
         android:layout_width="@dimen/GpaListViewWidth"
         android:layout_height="@dimen/GpaListViewHeight"
         android:id="@+id/sessionHeader"
-        style="@style/GpaListView"
+        style="@style/mainMenuView"
         android:text="2016/2017"
         android:transitionName="sessionTrans"
         android:background="@android:color/transparent"
@@ -53,12 +53,11 @@
         android:layout_width="@dimen/GpaListViewWidth"
         android:layout_height="@dimen/GpaListViewHeight"
         android:id="@+id/gpaScore"
-        style="@style/GpaListView"
+        style="@style/mainMenuView"
         android:layout_weight="1"
         android:transitionName="scoreTrans"
         android:background="@android:color/holo_red_light"
-        android:textColor="@android:color/background_light"
-        android:textColorHint="@color/white" />
+         />
 
         <TextView
             android:layout_width="2dp"

@@ -21,4 +21,7 @@
     <dimen name="mainViewHeight">50dp</dimen>
     <dimen name="mainViewWidth">70dp</dimen>
 
+    <dimen name="statusSmileyHeight">50dp</dimen>
+    <dimen name="statusSmileyWidth">50dp</dimen>
+
 </resources>

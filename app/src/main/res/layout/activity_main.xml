@@ -86,7 +86,7 @@
             android:layout_height="@dimen/displayViewHeight"
             android:background="@android:color/holo_red_dark"
             style="@style/mainMenuView"
-            android:text=" FIRST SEMESTER"/>
+            android:text="Click edit and enter your details"/>
 
 
     </LinearLayout>

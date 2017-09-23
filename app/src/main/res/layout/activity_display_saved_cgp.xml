@@ -78,13 +78,25 @@
             android:textColor="@android:color/background_light" />
         <TextView
             android:layout_height="@dimen/displayViewHeight"
-            android:layout_width="@dimen/displayViewWidth"
+            android:layout_width="wrap_content"
             android:id="@+id/Gpa"
             android:background="@android:color/holo_red_dark"
             style="@style/DisplayViews"
             android:textAlignment="center"
             android:transitionName="scoreTrans"
             android:text="4.2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/status"
+            style="@style/DisplayViews"
+            android:text="First Class Honours"/>
+
+        <ImageView
+            android:layout_width="@dimen/statusSmileyWidth"
+            android:layout_height="@dimen/displayViewHeight"
+            android:id="@+id/statusSmiley"
             />
 
     </android.support.v7.widget.Toolbar>

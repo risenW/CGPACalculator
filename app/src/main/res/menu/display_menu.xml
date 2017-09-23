@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share"
+        android:title="Share this file"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/savePdf"
+        android:title="Save as Pdf"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/moreApps"
+        android:title="More from Developer"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/rateApp"
+        android:title="Rate this App"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:orderInCategory="700"
+        app:showAsAction="never"
+
+        />
+
+</menu>

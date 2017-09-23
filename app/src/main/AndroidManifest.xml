@@ -19,7 +19,8 @@
         <activity android:name=".DisplaySavedCGPA" />
         <activity android:name=".Login" />
         <activity android:name=".PasswordSetUp" />
-        <activity android:name=".GpaList"></activity>
+        <activity android:name=".GpaList"
+            android:label="Saved Files"/>
     </application>
 
 </manifest>

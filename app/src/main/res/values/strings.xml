@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">CGPA Calculator</string>
+    <string name="nameTrans">nameTrans</string>
+    <string name="scoreTrans">scoreTrans</string>
+    <string name="sessionTrans">sessionTrans</string>
+    <string name="contentTrans">contentTrans</string>
 
     <string-array name="course_unit">
         <item>0</item>

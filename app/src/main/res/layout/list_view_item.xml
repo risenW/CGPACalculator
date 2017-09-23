@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_dark">
+    android:background="@android:color/background_dark"
+    android:layout_marginBottom="4dp"
+    android:layout_marginTop="4dp">
 
     <TextView
         android:layout_width="@dimen/GpaListViewWidth"
@@ -10,6 +12,7 @@
         android:id="@+id/nameHeader"
         style="@style/GpaListView"
         android:text="Odegua Rising"
+        android:transitionName="nameTrans"
         android:background="@android:color/holo_red_dark" />
     <TextView
         android:layout_width="@dimen/GpaListViewWidth"
@@ -17,6 +20,7 @@
         android:id="@+id/sessionHeader"
         style="@style/GpaListView"
         android:text="2016/2017"
+        android:transitionName="sessionTrans"
         android:background="@color/colorPrimary" />
     <TextView
         android:layout_width="@dimen/GpaListViewWidth"
@@ -25,6 +29,7 @@
         style="@style/GpaListView"
         android:layout_weight="1"
         android:text="4.5"
+        android:transitionName="scoreTrans"
         android:background="@android:color/holo_blue_dark" />
     <TextView
         android:layout_width="wrap_content"
@@ -33,6 +38,7 @@
         style="@style/GpaListView"
         android:maxLines="1"
         android:visibility="gone"
+        android:transitionName="contentTrans"
         />
 
 

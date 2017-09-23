@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/background_dark"
-    android:layout_marginBottom="4dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
     android:layout_marginTop="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            />
 
     <TextView
         android:layout_width="@dimen/GpaListViewWidth"
@@ -13,7 +24,15 @@
         style="@style/GpaListView"
         android:text="Odegua Rising"
         android:transitionName="nameTrans"
-        android:background="@android:color/holo_red_dark" />
+        android:background="@android:color/transparent"
+        android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            />
+
     <TextView
         android:layout_width="@dimen/GpaListViewWidth"
         android:layout_height="@dimen/GpaListViewHeight"
@@ -21,16 +40,32 @@
         style="@style/GpaListView"
         android:text="2016/2017"
         android:transitionName="sessionTrans"
-        android:background="@color/colorPrimary" />
+        android:background="@android:color/transparent"
+        android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            />
+
     <TextView
         android:layout_width="@dimen/GpaListViewWidth"
         android:layout_height="@dimen/GpaListViewHeight"
         android:id="@+id/gpaScore"
         style="@style/GpaListView"
         android:layout_weight="1"
-        android:text="4.5"
         android:transitionName="scoreTrans"
-        android:background="@android:color/holo_blue_dark" />
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@color/white" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,6 +75,15 @@
         android:visibility="gone"
         android:transitionName="contentTrans"
         />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        />
+
 
 
 </LinearLayout>

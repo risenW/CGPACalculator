@@ -4,7 +4,104 @@
     android:id="@+id/activity_about"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.afridevelopers.cgpacalculator.About"
-    android:background="@drawable/intrologo">
+    android:background="@drawable/developed">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/aboutLogoWidth"
+            android:layout_height="@dimen/aboutLogoHeight"
+            android:layout_margin="10dp"
+            android:background="@drawable/cropped"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/aboutTextStyle"
+                android:text="CGPA Calculator"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/aboutTextStyle"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:text="Version 1.0"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/aboutTextStyle"
+            android:layout_marginTop="20dp"
+            android:text="@string/aboutText"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/aboutTextStyle"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center"
+            android:text="Rate this App"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/aboutTextStyle"
+            android:padding="20dp"
+            android:layout_marginTop="4dp"
+            android:textAlignment="center"
+            android:text="@string/socialconnect"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="@dimen/socialIconLogoWidth"
+            android:layout_height="@dimen/socialIconLogoHeight"
+            android:background="@drawable/facebook"/>
+        <ImageButton
+            android:layout_width="@dimen/socialIconLogoWidth"
+            android:layout_height="@dimen/socialIconLogoHeight"
+            android:background="@drawable/instagram"/>
+        <ImageButton
+            android:layout_width="@dimen/socialIconLogoWidth"
+            android:layout_height="@dimen/socialIconLogoHeight"
+            android:background="@drawable/whatsapp"/>
+        <ImageButton
+            android:layout_width="@dimen/socialIconLogoWidth"
+            android:layout_height="@dimen/socialIconLogoHeight"
+            android:background="@drawable/youtube"/>
+
+
+
+    </LinearLayout>
+
 
 </LinearLayout>

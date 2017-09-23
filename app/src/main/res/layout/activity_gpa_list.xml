@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.afridevelopers.cgpacalculator.GpaList"
-    android:background="@color/colorPrimary">
+    android:background="?android:attr/activatedBackgroundIndicator">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -50,6 +50,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="73dp"
-        android:background="@drawable/intrologo" />
+        android:background="?android:attr/activatedBackgroundIndicator" />
 
 </RelativeLayout>

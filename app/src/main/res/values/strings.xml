@@ -4,6 +4,8 @@
     <string name="scoreTrans">scoreTrans</string>
     <string name="sessionTrans">sessionTrans</string>
     <string name="contentTrans">contentTrans</string>
+    <string name="aboutText">Easily calculate your GPA with the CGPA calculator. Has the option of sharing with friends or exporting as a PDF file for future use</string>
+    <string name="socialconnect">Connect with the Developer</string>
 
     <string-array name="course_unit">
         <item>0</item>

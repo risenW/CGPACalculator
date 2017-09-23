@@ -18,5 +18,15 @@
         <item name="android:textAlignment">center</item>
 
     </style>
+    <style name="aboutTextStyle">
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+
 
 </resources>

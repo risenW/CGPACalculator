@@ -16,34 +16,29 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_height="@dimen/displayViewHeight"
+        style="@style/loginViews"
         android:text="Enter Your 4-Digit password"
-        android:textSize="24sp"
-        android:textColor="@color/white"
         android:background="@color/colorPrimary"
-        android:padding="10dp"
         android:layout_marginBottom="2dp" />
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_height="@dimen/displayViewHeight"
+        style="@style/loginViews"
         android:id="@+id/ErrorLogin"
         android:layout_marginBottom="30dp"
-        android:textSize="24sp"
         android:textColor="@android:color/holo_red_dark"
         android:background="@android:color/transparent"
-        android:padding="10dp" />
+        />
 
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:gravity="center"
-        android:textSize="25sp"
+        android:layout_height="@dimen/displayViewHeight"
         android:inputType="numberPassword"
         android:maxLength="4"
+        style="@style/loginViews"
         android:background="@color/white"
         android:textColor="@color/black"
         android:layout_marginBottom="100dp"
@@ -52,22 +47,20 @@
         android:textColorHint="@android:color/darker_gray" />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/displayViewHeight"
         android:id="@+id/login"
         android:text="ok"
-        android:textColor="@android:color/background_light"
-        android:textStyle="normal|bold"
+        style="@style/loginViews"
         android:background="@color/colorPrimary"
-        android:textSize="20sp" />
+        />
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/displayViewHeight"
         android:id="@+id/resetPassword"
         android:text="Reset Password"
+        style="@style/loginViews"
         android:background="@android:color/holo_red_dark"
-        android:textSize="20sp"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/background_light" />
+        />
 
 </LinearLayout>

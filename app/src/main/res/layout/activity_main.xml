@@ -19,60 +19,53 @@
                 android:layout_width="match_parent"
                 android:orientation="horizontal"
                 android:background="@color/colorPrimary"
-                android:layout_height="80dp">
+                android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="10dp"
-                    android:textStyle="bold"
+                    android:layout_width="@dimen/mainViewWidth"
+                    android:layout_height="@dimen/mainViewHeight"
                     android:textColor="@android:color/background_light"
                     android:text="CGPA :"
+                    style="@style/mainMenuView"
                     android:background="@color/colorPrimary"
-                    android:gravity="left" />
+                    />
                 <TextView
-                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/mainViewWidth"
+                    android:layout_height="@dimen/mainViewHeight"
                     android:id="@+id/displayResult"
                     android:background="@android:color/background_light"
-                    android:padding="2dp"
-                    android:textStyle="bold"
+                    style="@style/mainMenuView"
                     android:textColor="@color/black"
                     android:text="0.0"
-                    android:layout_marginRight="2dp"
-                    android:textAlignment="center"
-                    android:layout_width="70dp" />
+                     />
                 <Button
-                    android:layout_height="wrap_content"
-                    android:paddingRight="2dp"
-                    android:textAllCaps="false"
+                    android:layout_width="@dimen/mainViewWidth"
+                    android:layout_height="@dimen/mainViewHeight"
+                    style="@style/mainMenuView"
                     android:textColor="@android:color/background_light"
-                    android:textStyle="bold"
                     android:background="@color/colorPrimary"
                     android:id="@+id/editCourse"
                     android:onClick="onClick"
                     android:text="Edit"
-                    android:layout_width="30dp" />
+                     />
                 <Button
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="2dp"
+                    android:layout_height="@dimen/mainViewHeight"
+                    style="@style/mainMenuView"
                     android:textColor="@android:color/background_light"
-                    android:textStyle="bold"
                     android:background="@color/colorPrimary"
                     android:onClick="onClick"
                     android:id="@+id/calculateCourse"
-                    android:textAllCaps="false"
                     android:text="Calculate"/>
 
                 <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="8dp"
+                    android:layout_width="@dimen/mainViewWidth"
+                    android:layout_height="@dimen/mainViewHeight"
+                    style="@style/mainMenuView"
                     android:id="@+id/getFiles"
                     android:onClick="onClick"
                     android:background="@color/colorPrimary"
                     android:src="@android:drawable/ic_input_get"
-                    android:layout_gravity="right|end"
                     android:layout_weight="1" />
 
 
@@ -90,13 +83,9 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="@dimen/displayViewHeight"
             android:background="@android:color/holo_red_dark"
-            android:textColor="@android:color/background_light"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            android:textAlignment="center"
-            android:padding="10dp"
+            style="@style/mainMenuView"
             android:text=" FIRST SEMESTER"/>
 
 
@@ -112,35 +101,28 @@
         android:textAlignment="center">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:textColor="@android:color/background_light"
-            android:textStyle="bold"
+            android:layout_width="@dimen/displayViewWidth"
+            android:layout_height="@dimen/displayViewHeight"
+            style="@style/mainMenuView"
             android:background="@color/colorPrimary"
-            android:text="COURSE"
-            android:textSize="20sp" />
+            android:text="Course"
+             />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="50dp"
-            android:textColor="@android:color/background_light"
-            android:textStyle="bold"
+            android:layout_width="@dimen/displayViewWidth"
+            android:layout_height="@dimen/displayViewHeight"
+            style="@style/mainMenuView"
             android:background="@color/colorPrimary"
-            android:text="UNITS"
-            android:textSize="20sp" />
+            android:text="Units"
+             />
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="100dp"
-            android:textColor="@android:color/background_light"
-            android:textStyle="bold"
+            android:layout_width="@dimen/displayViewWidth"
+            android:layout_height="@dimen/displayViewHeight"
+            style="@style/mainMenuView"
             android:background="@color/colorPrimary"
-            android:text="GRADE"
-            android:textSize="20sp"
+            android:text="Grade"
             android:layout_weight="1"
-            android:textAlignment="center" />
+            />
 
 
 

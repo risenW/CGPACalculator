@@ -2,8 +2,10 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
     <dimen name="GpaListViewHeight">70dp</dimen>
     <dimen name="GpaListViewWidth">140dp</dimen>
+
     <dimen name="aboutLogoHeight">150dp</dimen>
     <dimen name="aboutLogoWidth">150dp</dimen>
 
@@ -11,6 +13,12 @@
     <dimen name="socialIconLogoWidth">100dp</dimen>
 
     <dimen name="displayViewHeight">50dp</dimen>
-    <dimen name="displayViewWidth">150dp</dimen>
+    <dimen name="displayViewWidth">120dp</dimen>
+
+    <dimen name="listItemHeight">70dp</dimen>
+    <dimen name="listItemWidth">150dp</dimen>
+
+    <dimen name="mainViewHeight">50dp</dimen>
+    <dimen name="mainViewWidth">70dp</dimen>
 
 </resources>

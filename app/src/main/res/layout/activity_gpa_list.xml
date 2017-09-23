@@ -17,22 +17,22 @@
         android:layout_marginTop="4dp">
 
         <TextView
-            android:layout_width="@dimen/GpaListViewWidth"
-            android:layout_height="@dimen/GpaListViewHeight"
+            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="@dimen/displayViewWidth"
             android:id="@+id/nameHeader"
             style="@style/GpaListView"
             android:text="Name"
             android:background="@color/colorPrimary" />
         <TextView
-            android:layout_width="@dimen/GpaListViewWidth"
-            android:layout_height="@dimen/GpaListViewHeight"
+            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="@dimen/displayViewWidth"
             android:id="@+id/sessionHeader"
             style="@style/GpaListView"
             android:text="Session"
             android:background="@color/colorPrimary" />
         <TextView
-            android:layout_width="@dimen/GpaListViewWidth"
-            android:layout_height="@dimen/GpaListViewHeight"
+            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="@dimen/displayViewWidth"
             android:id="@+id/gpaScore"
             style="@style/GpaListView"
             android:layout_weight="1"

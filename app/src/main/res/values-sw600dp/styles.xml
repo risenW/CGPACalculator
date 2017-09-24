@@ -8,6 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="courseText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColorHighlight">@color/colorPrimary</item>
+        <item name="android:cursorVisible">false</item>
+
+    </style>
+
     <style name="GpaListView">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">26sp</item>

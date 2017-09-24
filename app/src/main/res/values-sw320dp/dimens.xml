@@ -12,14 +12,14 @@
     <dimen name="socialIconLogoHeight">100dp</dimen>
     <dimen name="socialIconLogoWidth">100dp</dimen>
 
-    <dimen name="displayViewHeight">50dp</dimen>
-    <dimen name="displayViewWidth">120dp</dimen>
+    <dimen name="displayViewHeight">30dp</dimen>
+    <dimen name="displayViewWidth">70dp</dimen>
 
     <dimen name="listItemHeight">70dp</dimen>
     <dimen name="listItemWidth">150dp</dimen>
 
-    <dimen name="mainViewHeight">50dp</dimen>
-    <dimen name="mainViewWidth">70dp</dimen>
+    <dimen name="mainViewHeight">30dp</dimen>
+    <dimen name="mainViewWidth">50dp</dimen>
 
     <dimen name="statusSmileyHeight">50dp</dimen>
     <dimen name="statusSmileyWidth">50dp</dimen>

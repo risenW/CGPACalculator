@@ -16,7 +16,7 @@
 
         <TextView
             android:layout_height="@dimen/displayViewHeight"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/displayViewWidth"
             android:text="JOHN SMITH"
             android:id="@+id/displayName"
             style="@style/DisplayViews"
@@ -28,14 +28,14 @@
             style="@style/DisplayViews"
             android:text="2015/2016"
             android:id="@+id/displaySession"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:transitionName="sessionTrans"
              />
 
 
         <ImageButton
             android:layout_height="@dimen/displayViewHeight"
-            android:layout_width="@dimen/displayViewWidth"
+            android:layout_width="0dp"
             android:id="@+id/lockFile"
             style="@style/DisplayViews"
             android:background="@color/colorPrimary"
@@ -51,7 +51,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:padding="10dp"
         android:textAlignment="center"
         android:layout_gravity="start"
@@ -71,13 +71,13 @@
 
         <TextView
             android:layout_height="@dimen/displayViewHeight"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/displayViewWidth"
             android:text="Current GPA:"
             style="@style/DisplayViews"
             android:textColor="@android:color/background_light" />
         <TextView
             android:layout_height="@dimen/displayViewHeight"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/displayViewWidth"
             android:id="@+id/Gpa"
             android:background="@android:color/holo_red_dark"
             style="@style/DisplayViews"
@@ -85,7 +85,7 @@
             android:text="4.2"
             />
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/displayViewWidth"
             android:layout_height="match_parent"
             android:id="@+id/status"
             style="@style/DisplayViews"

@@ -6,11 +6,11 @@
     <dimen name="GpaListViewHeight">90dp</dimen>
     <dimen name="GpaListViewWidth">200dp</dimen>
 
-    <dimen name="aboutLogoHeight">150dp</dimen>
-    <dimen name="aboutLogoWidth">150dp</dimen>
+    <dimen name="aboutLogoHeight">160dp</dimen>
+    <dimen name="aboutLogoWidth">160dp</dimen>
 
-    <dimen name="socialIconLogoHeight">100dp</dimen>
-    <dimen name="socialIconLogoWidth">100dp</dimen>
+    <dimen name="socialIconLogoHeight">120dp</dimen>
+    <dimen name="socialIconLogoWidth">120dp</dimen>
 
     <dimen name="displayViewHeight">80dp</dimen>
     <dimen name="displayViewWidth">170dp</dimen>

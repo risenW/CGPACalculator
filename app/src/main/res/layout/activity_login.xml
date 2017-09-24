@@ -16,7 +16,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/displayViewHeight"
+        android:layout_height="@dimen/loginHeight"
         style="@style/loginViews"
         android:text="Enter Your 4-Digit password"
         android:background="@color/colorPrimary"
@@ -24,7 +24,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/displayViewHeight"
+        android:layout_height="@dimen/loginHeight"
         style="@style/loginViews"
         android:id="@+id/ErrorLogin"
         android:layout_marginBottom="30dp"
@@ -35,7 +35,7 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="@dimen/displayViewHeight"
+        android:layout_height="@dimen/loginHeight"
         android:inputType="numberPassword"
         android:maxLength="4"
         style="@style/loginViews"
@@ -47,7 +47,7 @@
         android:textColorHint="@android:color/darker_gray" />
     <Button
         android:layout_width="match_parent"
-        android:layout_height="@dimen/displayViewHeight"
+        android:layout_height="@dimen/loginHeight"
         android:id="@+id/login"
         android:text="ok"
         style="@style/loginViews"
@@ -56,7 +56,7 @@
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="@dimen/displayViewHeight"
+        android:layout_height="@dimen/loginHeight"
         android:id="@+id/resetPassword"
         android:text="Reset Password"
         style="@style/loginViews"

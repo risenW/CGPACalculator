@@ -26,4 +26,6 @@
 
     <dimen name="paddingForMenuLeft">2dp</dimen>
 
+    <dimen name="loginHeight">40dp</dimen>
+
 </resources>

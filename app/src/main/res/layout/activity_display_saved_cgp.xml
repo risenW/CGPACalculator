@@ -20,7 +20,6 @@
             android:text="JOHN SMITH"
             android:id="@+id/displayName"
             style="@style/DisplayViews"
-            android:layout_gravity="center"
             android:transitionName="nameTrans"
              />
         <TextView
@@ -31,7 +30,7 @@
             android:id="@+id/displaySession"
             android:layout_marginLeft="20dp"
             android:transitionName="sessionTrans"
-            android:layout_gravity="center" />
+             />
 
 
         <ImageButton
@@ -63,7 +62,7 @@
         android:transitionName="contentTrans"
         android:id="@+id/textViewForCGPA"
         android:gravity="center"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
@@ -82,7 +81,6 @@
             android:id="@+id/Gpa"
             android:background="@android:color/holo_red_dark"
             style="@style/DisplayViews"
-            android:textAlignment="center"
             android:transitionName="scoreTrans"
             android:text="4.2"
             />

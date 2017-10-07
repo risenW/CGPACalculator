@@ -101,8 +101,8 @@
         android:layout_gravity="start">
 
         <TextView
-            android:layout_width="@dimen/displayViewWidth"
-            android:layout_height="@dimen/displayViewHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             style="@style/mainMenuView"
             android:background="@color/colorPrimary"
             android:text="Course"

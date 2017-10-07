@@ -13,7 +13,7 @@
     <dimen name="socialIconLogoWidth">140dp</dimen>
 
     <dimen name="displayViewHeight">70dp</dimen>
-    <dimen name="displayViewWidth">300dp</dimen>
+    <dimen name="displayViewWidth">500dp</dimen>
 
     <dimen name="listItemHeight">70dp</dimen>
     <dimen name="listItemWidth">150dp</dimen>
@@ -26,5 +26,7 @@
 
     <dimen name="paddingForMenuLeft">2dp</dimen>
     <dimen name="loginHeight">70dp</dimen>
+
+    <dimen name="textsizeForDisplay">20sp</dimen>
 
 </resources>

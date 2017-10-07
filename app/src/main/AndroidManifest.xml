@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,17 +19,22 @@
         <activity android:name=".MainActivity" />
         <activity
             android:name=".DisplaySavedCGPA"
-            android:label="Saved GPA file" />
+            android:label="Saved GPA file"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Login"
+            android:screenOrientation="portrait"
             android:label="Login" />
         <activity
             android:name=".PasswordSetUp"
+            android:screenOrientation="portrait"
             android:label="Password Set-up" />
         <activity
             android:name=".GpaList"
             android:label="Saved Files" />
+
         <activity android:name=".About"
+            android:screenOrientation="portrait"
             android:label="About"/>
     </application>
 
